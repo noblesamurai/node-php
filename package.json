@@ -7,6 +7,10 @@
     "url": "http://github.com/noblesamurai/node-php.git"
   },
   "scripts": {
+    "pretest": "jshint ./lib ./scripts",
     "test": "node scripts/test.js"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }
