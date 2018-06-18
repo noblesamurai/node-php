@@ -1,10 +1,10 @@
 {
-  "name": "php",
-  "version": "0.1.0",
+  "name": "@noblesam/php",
+  "version": "1.0.0",
   "main": "./lib/php",
   "repository": {
     "type": "git",
-    "url": "http://github.com/supernifty/node-php.git"
+    "url": "http://github.com/noblesamurai/node-php.git"
   },
   "scripts": {
     "test": "node scripts/test.js"
