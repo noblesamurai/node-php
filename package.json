@@ -1,12 +1,16 @@
 {
   "name": "@noblesam/php",
-  "version": "1.0.1",
+  "version": "1.1.0-node-8.0",
   "main": "./lib/php",
   "repository": {
     "type": "git",
     "url": "http://github.com/noblesamurai/node-php.git"
   },
   "scripts": {
+    "pretest": "jshint ./lib ./scripts",
     "test": "node scripts/test.js"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
   }
 }
