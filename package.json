@@ -1,6 +1,6 @@
 {
   "name": "@noblesam/php",
-  "version": "1.1.0-node-8.0",
+  "version": "1.1.0",
   "main": "./lib/php",
   "repository": {
     "type": "git",
